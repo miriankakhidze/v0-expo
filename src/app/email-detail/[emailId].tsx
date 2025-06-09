@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { emails } from "../constants";
+import { emails } from "../../constants";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 interface EmailDetailScreenProps {}

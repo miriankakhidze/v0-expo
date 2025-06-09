@@ -7,8 +7,8 @@ import {
   TextInput,
 } from "react-native";
 import { router } from "expo-router";
-import { Email } from "./types";
-import { emails } from "./constants";
+import { Email } from "../types";
+import { emails } from "../constants";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 interface InboxScreenProps {}

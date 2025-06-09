@@ -10,6 +10,7 @@ import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
 import "react-native-reanimated";
 import { useColorScheme } from "../components/useColorScheme";
+import { StatusBar } from "expo-status-bar";
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -62,6 +63,7 @@ function RootLayoutNav() {
         />
         <Stack.Screen name="modal" options={{ presentation: "modal" }} />
       </Stack>
+      <StatusBar style="auto" />
     </ThemeProvider>
   );
 }
